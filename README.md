@@ -5,6 +5,7 @@
  a. Drug Market
  b. Weapons Market
  c. Human Traffiking/ Fraudulent Sites.
+ It keeps crawling till a treshold set by the user is met.
  
 2. Classify and flag any wesbsite given by user and store it in SQLITE3 DB, and prepare a classified report in form of MS WORD
 
