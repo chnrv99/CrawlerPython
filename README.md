@@ -16,7 +16,7 @@
 
 Protections used: 
 1. Connected to TOR Control Port(Default 9051) with strong password
-2. Changes the IP Address for ever 10s
+2. Changes the IP Address for every 10s
 
 Dependies:
 Requests, BS4, pandas, tensorflow, subprocess, spacy, sqlite3, docx, signal and controller from stem
