@@ -179,6 +179,7 @@ def crawl():
         controller.authenticate(password='CristianoRonaldoCR7')
         num_links_to_crawl = int(input("Enter number of links to crawl: "))
         count =  0
+        # starting url: http://jgwe5cjqdbyvudjqskaajbfibfewew4pndx52dye7ug3mt3jimmktkid.onion.ly/ 
         url = input("Enter the url: ")
         visited = set()
         queue = [url]
@@ -220,7 +221,7 @@ def crawl():
                 count+=1
                 title = get_title(link)
                 classify = detect(title)
-                print(classify)
+                print("Classification is ", classify)
                 # classify=3
 
                 if classify == 1:
@@ -232,7 +233,7 @@ def crawl():
                     traffiking(url,title,name)
                 if len(visited)==num_links_to_crawl:
                     print("Visited Links: ")
-                    for i in range(visited):
+                    for i in visited:
                         print(i)
                 if len(visited)> num_links_to_crawl:
                     break
