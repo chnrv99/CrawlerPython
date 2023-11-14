@@ -1,9 +1,9 @@
 # Crawler_Python
 
-## Actual script is final.py  
+## Actual script is crawlFinal.py  
 To run
 ```
-python3 final.py
+python3 crawlFinal.py
 ```
 
 # It is a crawler which can :
