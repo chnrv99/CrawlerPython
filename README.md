@@ -1,5 +1,11 @@
 # Crawler_Python
 
+## Actual script is final.py  
+To run
+```
+python3 final.py
+```
+
 # It is a crawler which can :
 1. Crawl through any .onion site and accordingly classify them either as:
  a. Drug Market
