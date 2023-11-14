@@ -5,6 +5,11 @@ To run
 ```
 python3 crawlFinal.py
 ```
+The other scripts are just a part of the final one, feel free to run them
+
+## Datasets
+Our team made a custom dataset having 300 records of dark websites labelled manually, made a DL model (.h5 file) which can classify websites by upto 70% accuracy  
+Integrated it with the script 
 
 # It is a crawler which can :
 1. Crawl through any .onion site and accordingly classify them either as:
