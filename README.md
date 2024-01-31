@@ -33,3 +33,7 @@ Protections used:
 Dependies:
 Requests, BS4, pandas, tensorflow, subprocess, spacy, sqlite3, docx, signal and controller from stem
 
+# Contributors
+1. Nishanth C(Me)
+2. Ragav V
+3. Joshua Jesher
